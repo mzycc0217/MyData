@@ -1,0 +1,300 @@
+<mxfile host="" modified="2020-06-12T13:04:20.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.46.0 Chrome/78.0.3904.130 Electron/7.3.1 Safari/537.36" etag="K95QDWt6RTWCs6BsfWoW" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="972" dy="1787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <object label="" TypeName="类型名字" id="0">
+                    <mxCell/>
+                </object>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.02;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;span style=&quot;font-weight: 400&quot;&gt;user_tyid&lt;/span&gt;:人员类型id&lt;br&gt;user_TypeName:类型名称" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="100" y="120" width="170" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;人员类型/身份表&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="70" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 18px&quot;&gt;流程控制表&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="70" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="form_id:流程对应id&lt;br&gt;id:流程的id（当前流程）&lt;br&gt;up_id:（当前流程的上一级id）&lt;br&gt;down_id:(当前流程的下一级id)&lt;br&gt;line_ID:线路id" style="whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="100" y="370" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;font-size: 18px&quot;&gt;流程控制对应表&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="330" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="11" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="主" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="29" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1599" y="-4" relative="1" as="geometry">
+                        <mxPoint x="10.53" y="3.94" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="外" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="29" vertex="1" connectable="0">
+                    <mxGeometry x="0.6067" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="800" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="无需关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="30" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0492" relative="1" as="geometry">
+                        <mxPoint x="11.18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.863;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="11" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="515" y="290"/>
+                            <mxPoint x="515" y="363"/>
+                            <mxPoint x="572" y="363"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="47" vertex="1" connectable="0">
+                    <mxGeometry x="0.0763" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="主" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="47" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2536" y="-3" relative="1" as="geometry">
+                        <mxPoint x="7.94" y="1.79" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="外" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="47" vertex="1" connectable="0">
+                    <mxGeometry x="0.5853" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="id：流程id&lt;br&gt;LiuChenName:流程名字&lt;br&gt;user_tyid:人员类型id" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="120" width="170" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="12" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="27" vertex="1" connectable="0">
+                    <mxGeometry x="0.2291" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="主" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="27" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4966" y="2" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="外" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="27" vertex="1" connectable="0">
+                    <mxGeometry x="0.529" y="2" relative="1" as="geometry">
+                        <mxPoint x="9.88" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Content_ID:内容id&lt;br&gt;Content_Cotent:内容&lt;br&gt;userid:个人信息id&lt;br&gt;&amp;nbsp;user_tyid:发起人的人员类型id&lt;br&gt;state：(0,1,2)&lt;br&gt;状态&lt;br&gt;id：当前流程id&lt;br&gt;&lt;br&gt;is_true：是否撤销&lt;br&gt;line_ID：选择走哪条线路线路id（1）" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="382.5" y="430" width="205" height="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;font-size: 18px&quot;&gt;审批内容表&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="426" y="405" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="People_id:主键&lt;br&gt;user_id:审核人id&lt;br&gt;user_Tyid：审核人身份id&lt;br&gt;Content_ID:内容id，关联内容表&lt;br&gt;Decmiall:签核备注" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="382.5" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;span style=&quot;font-size: 18px&quot;&gt;审核信息表&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1440" y="310" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="确认通过的时候拿到user_tyid（重要）Content_ID 添加到审核的人员表，&lt;br&gt;通过user_Tyid查询流程控制表，拿到流程控制表中的流程id以及line_ID，&lt;br&gt;根据流程id以及line_ID&lt;br&gt;查询流程控制对应表中的up_id,拿到上一级id（up_id）&lt;br&gt;之后查询流程控制表中的对应的user_Typeid对应的流程id&lt;br&gt;&lt;br&gt;&lt;br&gt;后修改审批内容表中id(当前流程id)为当前id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="760" width="400" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="发起审批-根据发起人的user_tyid和content&amp;nbsp; ---》查询出流程id&lt;br&gt;根据流程id以及line_ID&lt;br&gt;找到流程控制对应表的up_id，根据up_id查询出&lt;br&gt;流程控制表中的id写入内容表的id(当前流程&lt;br&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="285" y="900" width="340" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="630" y="690" as="sourcePoint"/>
+                        <mxPoint x="700" y="670" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="670" y="680"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="如果拿到的是空值就证明当前流程已经&lt;br&gt;跑完修改state为2（完成状态）&lt;br&gt;以及id（当前流程id）改为发起人的user_Tyid&lt;br&gt;(根据Content_ID找出发起人的user_typeid并找出流程id)&lt;br&gt;对应的流程id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="630" width="310" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&amp;nbsp; 如果拒绝,根据发表内容的Content_ID查询出userid&lt;br&gt;（也可以在发起审批的时候提交到表中，这样就可以减少一次查询），&lt;br&gt;查询出他的 user_typid,找出这个人当前user_tpeid&lt;br&gt;对应的流程id并将当前流程id改为这个身份对应的流程id以及状态改为1（拒绝）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="245" y="1010" width="430" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="50" y="600" as="sourcePoint"/>
+                        <mxPoint x="60" y="630" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="修改流程顺序修改up_id为typid对应的即可" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry y="620" width="240" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="不建立主外键关系&lt;br&gt;（看个人需要,此处&lt;br&gt;我觉得不建立更加方便）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="279" y="178" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="关联" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="281" y="320" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="850" y="440" as="sourcePoint"/>
+                        <mxPoint x="910" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="添加时同步等待（尽量不要异步）&lt;br&gt;接下来操作可使用异步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="430" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="538" y="580" as="sourcePoint"/>
+                        <mxPoint x="630" y="580" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;流程更改为发起者id所指流程id." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="570" width="340" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="456" as="sourcePoint"/>
+                        <mxPoint x="902.5" y="256" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="删除时判断审核信息表中是否有此Content_ID,如果有那么无法删除可以撤销终止流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="236" width="460" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="如果有多个流程线路，那么line表去识别" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="38" width="230" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="lline_ID:主键&lt;br&gt;&amp;nbsp; line_Name:名字（审批内容表/审批账单表）&lt;br&gt;lIne_ fo:唯一标识/Id也可用" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="58" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="Money_id:账单id&lt;br&gt;Money_Content:账单内容userid:个人信息id&lt;br&gt;&amp;nbsp;user_tyid:发起人的人员类型id&lt;br&gt;state：(0,1,2)&lt;br&gt;状态&lt;br&gt;id：当前流程id&lt;br&gt;&lt;br&gt;is_true：是否撤销&lt;br&gt;line_ID:选择审批线路id（2）" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="1163" y="310" width="204" height="204" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&lt;span style=&quot;font-size: 18px&quot;&gt;审批账单表&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1150" y="280" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="People_id:主键&lt;br&gt;user_id:审核人id&lt;br&gt;user_Tyid：审核人身份id&lt;br&gt;Content_ID:内容id，关联内容表&lt;br&gt;Decmiall:签核备注" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="1460" y="352.5" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1350" y="482.03" as="sourcePoint"/>
+                        <mxPoint x="1471.66" y="430.03" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1411.5" y="482.53"/>
+                            <mxPoint x="1411.5" y="430.53"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="71" vertex="1" connectable="0">
+                    <mxGeometry x="0.2291" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="主" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="71" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4966" y="2" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="外" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="71" vertex="1" connectable="0">
+                    <mxGeometry x="0.529" y="2" relative="1" as="geometry">
+                        <mxPoint x="9.88" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="" style="endArrow=classic;html=1;entryX=0.14;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="860" y="120" as="sourcePoint"/>
+                        <mxPoint x="80" y="-40" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="480" y="-30"/>
+                            <mxPoint x="20" y="-20"/>
+                            <mxPoint x="30" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="77" vertex="1" connectable="0">
+                    <mxGeometry x="0.0202" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="外" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="77" vertex="1" connectable="0">
+                    <mxGeometry x="0.4287" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="主" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="77" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5195" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="" style="endArrow=classic;html=1;entryX=0.623;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="67" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1020" y="150" as="sourcePoint"/>
+                        <mxPoint x="1070" y="100" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1290" y="150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="82" vertex="1" connectable="0">
+                    <mxGeometry x="0.1958" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="主" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="82" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6031" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="外" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="82" vertex="1" connectable="0">
+                    <mxGeometry x="0.2558" y="-62" relative="1" as="geometry">
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="83" value="一对多" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="1154" y="118" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="860" y="168" as="sourcePoint"/>
+                        <mxPoint x="590" y="440" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="650" y="150"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="关联" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="87" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1772" y="14" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="主" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="87" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5352" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="外" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="87" vertex="1" connectable="0">
+                    <mxGeometry x="0.35" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;一。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="191" y="760" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;二。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="191" y="900" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px&quot;&gt;三。&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="1000" width="80" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
